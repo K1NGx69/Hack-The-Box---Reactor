@@ -2,11 +2,7 @@ Hackthebox reactor
 
 ![[Screenshot_20260526_202415.png]]
 I found a critical vulnerability via research `CVE-2025-55182`
-``` 
-https://github.com/ZemarKhos/CVE-2025-55182-Exploit-PoC-Scanner
-```
-
- contains the exploit we need to use
+This  contains the exploit we need to use
  https://github.com/p3ta00/react2shell-poc 
  this was found out to be working out here so I used the command 
 ```
